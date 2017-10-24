@@ -18,6 +18,4 @@ public class Program03 {
 
     System.out.println(fib(47));
   }
-
-
 }
