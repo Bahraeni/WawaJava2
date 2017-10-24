@@ -1,5 +1,5 @@
 * Assignment 01
-  Write fib (see Program03) in such a way that computing fib(50) would take a faction of a second.
+  Write fib (see Program03) in such a way that computing fib(50) would take under 1 second.
   The procedure should use recursion.
 * Assignment 02
   Rewrite the procedure from Assignment 01 to use while loop instead of recursion.
