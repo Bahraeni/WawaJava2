@@ -13,6 +13,11 @@ public class Program05 {
     int[] p = {3, 4, -6, -2, 0, 7, 5};
     printArray(p);
 
+    // v1 = [1, 2, 5]
+    // v2 = [3, 4]
+    // v1 * v2 = 1 * 3 + 2 * 4
+
+
   }
 
 }
