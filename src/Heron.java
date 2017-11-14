@@ -1,7 +1,7 @@
 public class Heron {
 
   public static void main(String[] args) {
-    System.out.println(loop(2, 1));
+    System.out.println(loop(25, 1));
   }
 
   private static double loop(double x, double y) {
