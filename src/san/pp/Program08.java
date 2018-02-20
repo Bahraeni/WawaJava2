@@ -1,3 +1,5 @@
+package san.pp;
+
 public class Program08 {
 
   public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class Program08 {
 //    double w = 0.0 / 0.0;
 //    System.out.println(w == w);
 //
-//    System.out.println(Ratios.toString(Ratios.cons(1, 3)));
+//    System.out.println(san.pp.Ratios.toString(san.pp.Ratios.cons(1, 3)));
 
     Object x = Ratios.cons(5, 2);
     Object y = Ratios.cons(2, -4);
@@ -26,10 +28,10 @@ public class Program08 {
     System.out.println(Ratios.toString(w));
     System.out.println(Ratios.toDouble(w));
 
-//    System.out.println(Ratios.toString(Ratios.cons(4,   5)));
-//    System.out.println(Ratios.toString(Ratios.cons(-4,  5)));
-//    System.out.println(Ratios.toString(Ratios.cons(4,  -5)));
-//    System.out.println(Ratios.toString(Ratios.cons(-4, -5)));
+//    System.out.println(san.pp.Ratios.toString(san.pp.Ratios.cons(4,   5)));
+//    System.out.println(san.pp.Ratios.toString(san.pp.Ratios.cons(-4,  5)));
+//    System.out.println(san.pp.Ratios.toString(san.pp.Ratios.cons(4,  -5)));
+//    System.out.println(san.pp.Ratios.toString(san.pp.Ratios.cons(-4, -5)));
 
   }
 

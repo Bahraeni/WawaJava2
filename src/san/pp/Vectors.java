@@ -1,3 +1,5 @@
+package san.pp;
+
 public class Vectors {
 
   public static double product(double[] x, double[] y) {

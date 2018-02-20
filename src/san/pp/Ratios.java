@@ -1,3 +1,5 @@
+package san.pp;
+
 public class Ratios {
 
   public static Object cons(long n, long d) {

@@ -1,3 +1,5 @@
+package san.pp;
+
 public class Program02 {
 
   static int fact(int n) {

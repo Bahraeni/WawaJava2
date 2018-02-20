@@ -1,3 +1,5 @@
+package san.pp;
+
 public class Program05 {
 
   static void printArray(int[] array) {

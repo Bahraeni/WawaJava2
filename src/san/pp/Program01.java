@@ -1,3 +1,5 @@
+package san.pp;
+
 public class Program01 {
 
   static int sumNaturals(int n) {
