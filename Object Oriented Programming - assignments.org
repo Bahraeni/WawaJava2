@@ -1,0 +1,10 @@
+* Assignment 1
+  Install Java Development Kit, version 1.8 or 1.9
+  Install IntelliJ/Eclipse/Netbeans or other IDE
+  Create a class that represents a washing machine with the following
+  (hidden, private) properties and messages to manipulate them:
+  - Water temp.
+  - Numbers of rotations per minute 600 .. 1200
+  - Washing time
+  - Program: full, normal, delicate
+  - running
