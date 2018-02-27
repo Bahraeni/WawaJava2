@@ -5,8 +5,31 @@
     <title>
       My First WEB Page
     </title>
+
+    <script>
+      var counter = 0;
+
+      // var onCounterClick = function() {
+      //   counter += 1; // counter = counter + 1;
+      //   var h1 = document.getElementById("counterH1");
+      //   h1.innerHTML = "You've clicked " + counter + " times.";
+      //   return counter;
+      // };
+
+      function onCounterClick() {
+        counter += 1; // counter = counter + 1;
+        var h1 = document.getElementById("counterH1");
+        h1.innerHTML = "You've clicked " + counter + " times.";
+        return counter;
+      }
+
+    </script>
+
   </head>
   <body>
-    Hello World!!! ąęśćółżźń
+    <h1 id="counterH1">You've clicked 0 times.</h1>
+
+    <input type="button" value="Click me"
+           onclick="onCounterClick()"/>
   </body>
 </html>
