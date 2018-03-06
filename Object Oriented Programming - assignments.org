@@ -10,4 +10,5 @@
   - running
 
 * Assignment 2
-  Use this symbol everywhere in the definition of class from Assignment 1
+  - Define constructors for the class from Assignment 1
+  - Use this symbol everywhere in the definition of class from Assignment 1
