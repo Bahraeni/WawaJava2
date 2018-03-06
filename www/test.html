@@ -7,7 +7,7 @@
     </title>
 
     <script>
-      var counter = 0;
+      // var counter = 0;
 
       // var onCounterClick = function() {
       //   counter += 1; // counter = counter + 1;
@@ -16,11 +16,32 @@
       //   return counter;
       // };
 
-      function onCounterClick() {
-        counter += 1; // counter = counter + 1;
-        var h1 = document.getElementById("counterH1");
+      function seqGen(start) {
+        let counter = start - 1;
+        let gen = function(reset) {
+          if (reset == true) {
+            counter = start - 1;
+          } else {
+            counter += 1;
+          }
+          return counter;
+        };
+        return gen;
+      }
+
+      const s1 = seqGen(1);
+
+      function updateDisplay(counter) {
+        let h1 = document.getElementById("counterH1");
         h1.innerHTML = "You've clicked " + counter + " times.";
-        return counter;
+      }
+
+      function onCounterClick() {
+        updateDisplay(s1(false));
+      }
+
+      function onCounterReset() {
+        updateDisplay(s1(true));
       }
 
     </script>
@@ -31,5 +52,8 @@
 
     <input type="button" value="Click me"
            onclick="onCounterClick()"/>
+    <br/>
+    <input type="button" value="Reset"
+           onclick="onCounterReset()"/>
   </body>
 </html>
