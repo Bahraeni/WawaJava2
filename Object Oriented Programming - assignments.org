@@ -8,3 +8,6 @@
   - Washing time
   - Program: full, normal, delicate
   - running
+
+* Assignment 2
+  Use this symbol everywhere in the definition of class from Assignment 1

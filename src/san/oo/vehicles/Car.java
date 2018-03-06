@@ -5,11 +5,11 @@ public class Car {
   private boolean running;
 
   public void run() {
-    running = true;
+    this.running = true;
   }
 
   public void stop() {
-    running = false;
+    this.running = false;
   }
 
 }

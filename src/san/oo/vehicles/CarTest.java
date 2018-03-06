@@ -6,6 +6,8 @@ public class CarTest {
     Car c1 = new Car();
     c1.run();
 
+    Car c2 = new Car();
+
     System.out.println("Finished.");
   }
 
