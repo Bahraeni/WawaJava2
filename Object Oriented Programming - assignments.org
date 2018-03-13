@@ -12,3 +12,5 @@
 * Assignment 2
   - Define constructors for the class from Assignment 1
   - Use this symbol everywhere in the definition of class from Assignment 1
+* Assignment 3
+  Add other relevant arith. operators to san.math.Complex.
