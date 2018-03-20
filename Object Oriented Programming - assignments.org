@@ -14,3 +14,9 @@
   - Use this symbol everywhere in the definition of class from Assignment 1
 * Assignment 3
   Add other relevant arith. operators to san.math.Complex.
+* Assignment 4
+  Create a class Vector3D for representing vectors in 3D space. Implement:
+  - dot product of 2 Vector3D objects
+  - vector addition
+  - multiplication of a Vector3D by a real number
+  - vector length (Euclidean norm)

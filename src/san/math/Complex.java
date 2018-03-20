@@ -2,9 +2,17 @@ package san.math;
 
 public class Complex {
 
-  private double re;
+  private final double re;
 
-  private double im;
+  private final double im;
+
+  public Complex() {
+    this(0, 0);
+  }
+
+  public Complex(double x) {
+    this(x, 0);
+  }
 
   public Complex(double re, double im) {
     this.re = re;

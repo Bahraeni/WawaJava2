@@ -10,6 +10,10 @@ public class TestComplex {
     System.out.println(c1);
     System.out.println(c2);
     System.out.println(c3);
+
+    Complex c4 = new Complex();
+    Complex c5 = new Complex(5);
+    System.out.println("Finished");
   }
 
 }
