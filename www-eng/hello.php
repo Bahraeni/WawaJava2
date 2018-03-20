@@ -1,3 +1,7 @@
+<?php
+  $firstName = "John";
+  $lastName  = "Doe";
+?>
 <!doctype html>
 <html>
   <head>
@@ -7,10 +11,14 @@
     </title>
   </head>
   <body>
-    <h1>Hello Dear User <?php
-        $name = "John";
-        echo($name);
-      ?> !!!</h1>
+    <h1>Now I have my&nbsp;text here.</h1>
+
+    <h1>Hello Dear User
+      <?php
+      echo $firstName; echo "&nbsp;";
+      echo $lastName;
+      ?>
+       !!!</h1>
   </body>
 </html>
 
