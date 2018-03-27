@@ -20,3 +20,8 @@
   - vector addition
   - multiplication of a Vector3D by a real number
   - vector length (Euclidean norm)
+* Assignment 5
+  - Create a hierarchy of vehicles (flying, rolling on wheels, moving on water)
+  - At least 12 classes
+  - At least 3 level deep
+  - Add methods and fields to the designed classes.
