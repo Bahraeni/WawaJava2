@@ -1,9 +1,21 @@
 <?php
-$firstName = $_GET["firstName"];
-$height    = $_GET["height"   ];
-$weight    = $_GET["weight"   ];
+declare(strict_types = 1);
 
-$result = $weight / ($height * $height);
+function str2float(string $s) : float {
+  return floatval(str_replace(',', '.', $s));
+}
+
+$firstName = $_POST["firstName"];
+$height    = str2float($_POST["height"]);
+$weight    = str2float($_POST["weight"]);
+
+$result = NULL;
+if ($height > 0 && $weight > 0) {
+  $result = $weight / ($height * $height);
+} else {
+  $result = '<span style="color:red">Your data is wrong</span>';
+}
+
 ?>
 <!doctype html>
 <html>
