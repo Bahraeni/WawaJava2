@@ -6,10 +6,10 @@ function str2float(string $s) : float {
 }
 
 function foo(?string $s) : float {
-	if ($s == NULL)
-		return 1;
-	else
-		return $s + 1;
+  if ($s == NULL)
+    return 1;
+  else
+    return $s + 1;
 }
 
 echo foo("123");
