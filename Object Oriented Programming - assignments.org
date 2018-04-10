@@ -25,3 +25,8 @@
   - At least 12 classes
   - At least 3 level deep
   - Add methods and fields to the designed classes.
+* Assignment 6
+  - Define a hierarchy of at least 6 classes at least 3 levels depth with:
+  - Some abstract methods
+  - Some concrete methods
+  - Some overriden methods

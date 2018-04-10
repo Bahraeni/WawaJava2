@@ -1,6 +1,6 @@
 package san.animals;
 
-public class Animal {
+public abstract class Animal {
 
   private boolean isMoving;
 
@@ -11,5 +11,7 @@ public class Animal {
   public void stopMoving() {
     this.isMoving = false;
   }
+
+  public abstract void feedYourself(Object food);
 
 }

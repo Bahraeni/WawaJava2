@@ -9,6 +9,9 @@ public class TestAnimals {
     e1.startMoving();
     a1.stopMoving();
 
+    Animal a2 = new Bee();
+    a2.feedYourself("...");
+    a1.feedYourself("...");
   }
 
 }

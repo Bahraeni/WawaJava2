@@ -1,4 +1,4 @@
 package san.animals;
 
-public class Insect extends Invertebrate {
+public abstract class Insect extends Invertebrate {
 }

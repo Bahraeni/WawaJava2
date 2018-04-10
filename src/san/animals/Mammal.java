@@ -1,4 +1,4 @@
 package san.animals;
 
-public class Mammal extends Tetrapod {
+public abstract class Mammal extends Tetrapod {
 }
