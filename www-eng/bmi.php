@@ -1,9 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-function str2float(string $s) : float {
-  return floatval(str_replace(',', '.', $s));
-}
+require_once 'utils.php';
 
 $firstName = $_POST["firstName"];
 $height    = str2float($_POST["height"]);
